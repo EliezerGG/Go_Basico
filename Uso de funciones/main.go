@@ -20,10 +20,11 @@ func returnValue(a int) int {
 
 func main() {
 	normalFunction("Hola mundo")
-    tripleArgument(1, 2, "Hola")
-    value := returnValue(2)
-    fmt.Println("value:", value)
+	tripleArgument(1, 2, "Hola")
+	value := returnValue(2)
+	fmt.Println("value:", value)
 
-    value1, value2 := doubleReturn(2)
-    fmt.Println("value1:", value1, "value2:", value2)
+	value1, value2 := doubleReturn(2)
+	fmt.Println("value1:", value1, "value2:", value2)
+
 }
